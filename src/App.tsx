@@ -1,11 +1,11 @@
 // import Counter from "./components/ui/Counter";
-import CounterUi from "./components/ui/CounterUi";
+import Counter from "./components/ui/Counter";
 
 function App() {
   return (
     <div className="App flex col-4">
       {/* <Counter /> */}
-      <CounterUi />
+      <Counter />
     </div>
   );
 }

@@ -33,7 +33,7 @@ export default function Counter() {
       timerRef.current = setInterval(() => {
         setCount((prev) => prev + 1);
       }, 80); // Hold করার পর প্রতি 80ms এ ১ করে বাড়াবে
-    }, 400); // 400ms Delay
+    }, 600); // 400ms Delay
   };
 
   // Decrement Handler
@@ -48,7 +48,7 @@ export default function Counter() {
       timerRef.current = setInterval(() => {
         setCount((prev) => Math.max(0, prev - 1));
       }, 80); // Hold করার পর প্রতি 80ms এ ১ করে কমাবে
-    }, 400); // 400ms Delay
+    }, 600); // 400ms Delay
   };
 
   const reset = () => {

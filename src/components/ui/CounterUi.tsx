@@ -15,7 +15,7 @@ export default function CounterUi() {
   const dispatch = useAppDispatch();
 
   return (
-    <div className="flex min-h-screen w-full items-center justify-center bg-slate-200 p-4">
+    <div className="flex min-h-screen w-full items-center justify-center p-4">
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
         {/* Header Section */}
         <div className="space-y-1">
